@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    line-height: 1.5;
+    font-size: 17px;
+    background-color: rgb(145, 144, 144);
+    color: white;
+}
+/*リンク*/
+a,
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: lawngreen;
+}
+a:hover{
+    text-decoration: none;
+    color: skyblue;
+}
+/*header*/
+header{
+    display: flex;
+}
+header h1{
+    margin: 20px 0 0 20px;
+}
+header nav{
+    margin: 0 auto  0 20px;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 25px 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: aqua;
+}
+header nav ul li a:hover{
+    color: skyblue;
+}
+header  {
+     background: rgb(42, 85, 226);
+    
+}
