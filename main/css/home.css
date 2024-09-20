@@ -23,17 +23,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.header{
-    position: fixed;
-    top:20px;
-    left: 20px;
-    padding:10px;
-    border: 1px solid;
-    border-radius: 5px;
-    width: 200px;
-    max-height: 80vh;
-    overflow-y: auto;
-}
 
 /*header*/
 header{
@@ -51,6 +40,9 @@ header nav ul{
     padding: 0;
     display: flex;
 }
+header nav ul li{
+    margin-right: 20px;
+}
 header nav ul li a,
 header nav ul li a:link,
 header nav ul li a:visited{
@@ -65,4 +57,12 @@ header nav ul li a:hover{
 header  {
      background: rgb(42, 85, 226);
     
+}
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    background-color: rgb(42, 85, 226);
+    padding:10px;
 }
