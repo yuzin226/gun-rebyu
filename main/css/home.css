@@ -26,17 +26,25 @@ html{
 
 /*header*/
 header{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    background-color: rgb(42, 85, 226);
+    padding:10px;
     display: flex;
 }
 header h1{
-    margin: 20px 0 0 20px;
+    margin: 0;
+    padding:10px 20px;
+    color:white;
 }
 header nav{
-    margin: 0 auto  0 20px;
+    margin-left:auto;
 }
 header nav ul{
     list-style-type: none;
-    margin: 25px 0;
+    margin: 0;
     padding: 0;
     display: flex;
 }
@@ -57,12 +65,4 @@ header nav ul li a:hover{
 header  {
      background: rgb(42, 85, 226);
     
-}
-header{
-    position: fixed;
-    top:0;
-    width:100%;
-    z-index: 1000;
-    background-color: rgb(42, 85, 226);
-    padding:10px;
 }
