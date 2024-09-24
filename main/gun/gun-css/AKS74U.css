@@ -5,3 +5,7 @@ body{
     background-color: rgb(145, 144, 144);
     color: white;
 }
+#rlf ul{
+    display: flex;
+    list-style-type: none;
+}
