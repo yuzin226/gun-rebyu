@@ -1,7 +1,77 @@
 @charset "UTF-8";
+a,
+a:link{
+    color: lawngreen;;
+}
+a:visited{
+    color: lawngreen;
+}
+a:hover{
+    text-decoration: none;
+    color: skyblue;
+}
+
+/*スクロール*/
+html{
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 1000;
+    background-color: rgb(42, 85, 226);
+    padding:10px;
+    display: flex;
+}
+header h1{
+    margin: 20px 0 0 20px;
+    margin: 0;
+    padding:10px 20px;
+    color:white;
+}
+header nav{
+    margin:0 auto  0 20px;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 25px 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    margin-right: 20px;
+}
+header nav ul li a,
+header nav ul li a:link,
+header nav ul li a:visited{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: aqua;
+}
+header nav ul li a:hover{
+    color: skyblue;
+}
+header  {
+     background: rgb(42, 85, 226);
+    
+}
 body{
     line-height: 1.5;
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*垂直方向の中央ぞろえ*/
+    align-items: center;/*水平方向の中央ぞろえ*/
+    min-height: 100vh;/*ビューポート全体をカバー*/
 }
+/*画像の横並び*/
+.rlf {
+    display: flex;
+    gap: 10px;/*画像のスペース*/
+}
+
