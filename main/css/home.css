@@ -29,6 +29,7 @@ header{
     position: fixed;
     top:0;
     width:100%;
+    left: 0%;
     z-index: 1000;
     background-color: rgb(42, 85, 226);
     padding:10px;
@@ -89,4 +90,8 @@ footer{
     position: relative;
     top:40px;
     padding: 0 0 20px 20px;
+}
+/*詳細の背景色*/
+select part{
+    background-color: ;
 }

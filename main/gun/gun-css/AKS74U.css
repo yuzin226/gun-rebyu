@@ -18,7 +18,8 @@ html{
 header{
     position: fixed;
     top:0;
-    width:100%;
+    width: 100% ;
+    left: 0%;
     z-index: 1000;
     background-color: rgb(42, 85, 226);
     padding:10px;
@@ -73,5 +74,21 @@ body{
 .rlf {
     display: flex;
     gap: 10px;/*画像のスペース*/
+}
+/*目次*/
+aside{
+    position:fixed;
+    top:100px;
+    left:0;
+    width: 150px;
+    height: 400px;
+    padding:10px;
+    background-color: rgb(42, 85, 226);
+    border-right: 1px solid #ccc;
+    height: 100%;
+    overflow-y:auto ;
+}
+body{
+    margin-left: 220px;
 }
 
