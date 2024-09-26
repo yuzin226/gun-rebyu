@@ -58,6 +58,10 @@ header  {
      background: rgb(42, 85, 226);
     
 }
+/*ガンスミスの大きさ*/
+header img{
+    height: 55px;
+}
 body{
     line-height: 1.5;
     font-size: 17px;
@@ -81,14 +85,37 @@ aside{
     top:100px;
     left:0;
     width: 150px;
-    height: 400px;
+    height: 100vh;/*画面全体の高さに合わせる*/
     padding:10px;
     background-color: rgb(42, 85, 226);
     border-right: 1px solid #ccc;
     height: 100%;
-    overflow-y:auto ;
+    overflow-y:auto ;/*目次だけでスクロール*/
 }
 body{
     margin-left: 220px;
 }
-
+/*画面が幅７６８PX以下の場合のレスポンス対応*/
+@media (max-width:768px) {
+    aside{
+        position: static;/*固定解除*/
+        width: 100%;
+        height:auto ;
+        border-right: none;
+    }      
+    body{
+        margin-left:0;
+    }
+}
+/*画面幅480px以下の場合のさらに狭い表示対応*/
+@media (max-width:480px){
+    aside{
+        padding:5px;/*余白を小さく*/
+    }
+    header{
+        text-align: center;/*ヘッダーを中央よせ*/
+    }
+}
+aside #keturon{
+    padding: 10px;
+}
