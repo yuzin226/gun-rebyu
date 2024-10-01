@@ -4,7 +4,16 @@ body{
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
+
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    
 }
+
+
 /*リンク*/
 a,
 a:link{
@@ -93,5 +102,6 @@ footer{
 }
 /*詳細の背景色*/
 select part{
-    background-color: ;
+    background-color: blue;
 }
+
