@@ -4,7 +4,7 @@ body{
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
-    padding-top:60px;
+    padding-top:70px;
 
     display: flex;
     flex-direction:column;
@@ -14,20 +14,25 @@ body{
     
 }
 
-.visual img{
-    opacity:0;
-    transition: opacity 1s ease-in-out;
-    position:absolute;
-    top:0;
-    left:0;
+/*画像のスライダー*/
+.visual-container{
     width:100%;
-    height:100%;
-    object-fit: cover;/*画像をコンテナ内で適切に表示*/
+    max-width: 1000px;
+    margin:0 auto;
+    overflow:hidden;
 }
-.visual img.active{
-    opacity:1;
+/*スライダーを横に並べる*/
+.visual{
+    display:flex;
+    transition:transform 0.5s ease-in-out; /*スライド時のアニメーション*/
+    width:400%;
 }
 
+/*画像スタイル*/
+.visual img{
+    width:100%;
+    flex-shrink:0;
+}
 
 
 

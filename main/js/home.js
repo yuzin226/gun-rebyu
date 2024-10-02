@@ -1,16 +1,18 @@
-//画像の配列作成
-const images =[
-    "images/IMG_1905.JPG",
-    "images/IMG_1419.JPG",
-    "images/IMG_1986.JPG",
-    "images/IMG_E1932.JPG"
-];
+let currentIndex = 0 //現在のスライド番号
+const slider = document.querySelector('.visual')//スライダ要素
+const images = document.querySelectorAll('.visual img')//全画像
 
-let currentIndex = 0;//現在の画像のインデックス
+//スライド幅の計算
+const totalvisual = images.length;
+const visualwidth = images[0].clientWidth;//各画像の幅
 
-//１秒ごとに画像を切り替える
-setInterval(function(){
-    currentIndex = (currentIndex + 1) % images.length;//次の画像
-    document.getElementById("ss-img").src = images[currentIndex];//画像を変更
+//スライドを切り替える関数
+function visualImages(){
+    currentIndex++;
+    if(currentIndex >= totalvisual){
+        currentIndex = 0;//最後の画像の次は最初に戻る
+    }
+    slider.style.transform = `translateX(${-visualwidth * currentIndex}px)`;//スライド移動
 
-}, 4000);//4０００ミリ秒
+}
+setInterval(visualImages, 4000)
