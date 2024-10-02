@@ -15,4 +15,4 @@ function visualImages(){
     slider.style.transform = `translateX(${-visualwidth * currentIndex}px)`;//スライド移動
 
 }
-setInterval(visualImages, 4000)
+setInterval(visualImages, 4000);
