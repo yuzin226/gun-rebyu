@@ -6,11 +6,7 @@ body{
     color: white;
     padding-top:70px;
 
-    display: flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    min-height: 100vh;
+   
     
 }
 
@@ -127,3 +123,21 @@ select part{
     background-color: blue;
 }
 
+.inner {
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start ;
+    align-items: flex-start;
+    min-height: 100px;
+}
+
+main .sefety{
+    display: flex;
+}
+main .sefety{
+    margin-top: 70px;
+    line-height: 2;
+    list-style-type: decimal;
+    margin-left: auto;
+    margin: right 30px;
+}
