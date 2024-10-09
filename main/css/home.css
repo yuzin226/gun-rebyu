@@ -4,10 +4,7 @@ body{
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
-    padding-top:70px;
-
-   
-    
+    padding-top:70px; 
 }
 
 /*画像のスライダー*/
@@ -135,19 +132,16 @@ select part{
 }
 
 
-.sefety{
-    margin-top: 70px;
-    line-height: 3;
-    list-style-type: decimal;
-
-    display: grid;
-    flex-direction:columun;
-    justify-content: center;
-    align-items: center;
+.sefety1{
+    background-color:rgb(228, 228, 32);
+    color: blue;
+    text-align:center;
+    width: 100vw;
+    margin:0;
+    padding:20px 0;
+    margin-top: 30px;
 }
-.sefety h2{
-    color: rgb(0, 0, 255);
-    background-color: rgb(237, 237, 21);
-    padding:10px 
+.sefety2{
+    list-style-type:decimal;
+    text-align: center;
 }
-
