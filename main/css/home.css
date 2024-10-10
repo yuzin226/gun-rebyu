@@ -145,3 +145,57 @@ select part{
     list-style-type:decimal;
     text-align: center;
 }
+
+/*銃一覧*/
+#gunlist{
+    padding-bottom:20px;
+}
+
+/*部品検索欄*/
+.search-container{
+    font-family:Arial, sans-serif;
+    background-color:rgb(0, 0, 0);
+    padding:10px;
+    
+
+    text-align:center;
+    margin-bottom:20px
+}
+
+#search-input{
+    width:300px;
+    padding:10px;
+    font-size:15px;
+}
+
+#search-button{
+    padding:10px 20px;
+    font-size:15px;
+    background-color: rgb(33, 48, 255); 
+    color:aliceblue;
+    border:none;
+    cursor:pointer;
+}
+
+#search-button:hover{
+    background-color: rgb(9, 148, 255);
+}
+
+#result-container{
+    margin-top:20px;
+    text-align:center;
+}
+.css{
+    font-family:Arial, sans-serif;
+    background-color:rgb(0, 0, 0);
+    padding:10px;
+    color:aliceblue;
+    width: 100vw;
+    
+}
+
+#result-container img{
+    max-width:300px ;
+    max-height: 300px;
+    margin-top:20px;
+}

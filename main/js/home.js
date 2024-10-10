@@ -16,3 +16,4 @@ function visualImages(){
 
 }
 setInterval(visualImages, 4000);
+
