@@ -2,7 +2,7 @@
 const partsDatabase = {
     "バレル": {
         "description": "エアガンの銃身部分。精度に大きく影響します。",
-        "image": "url_to_barrel_image.jpg" // バレルの画像URL
+        "image": "images/image.png" // バレルの画像URL
     },
     "トリガー": {
         "description": "引き金の部分。カスタマイズ可能なパーツも多い。",
@@ -37,7 +37,7 @@ document.getElementById('search-button').addEventListener('click',function(){
         resultContainer.innerHTML = `
         <h3>${searchInput}</h3>
         <p>${part.description}</p>
-        <img src="${part.image}" alt="${searchInput}の画像" style="max-width: 300px; max-height: 300px;<img src="${part.image}" alt="${searchInput}の画像" 
+        <img src="${part.image}" alt="${searchInput}の画像" style="max-width: 300px; max-height: 300px;<img src="${part.image}" alt="${searchInput}の画像"> 
         `;
     }else{
         resultContainer.innerHTML = `<p>部品が見つかりませんでした</p>`;
