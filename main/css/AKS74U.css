@@ -1,14 +1,14 @@
 @charset "UTF-8";
 a,
 a:link{
-    color: lawngreen;;
+    color: rgb(0, 0, 0);;
 }
 a:visited{
-    color: lawngreen;
+    color: rgb(0, 0, 0);
 }
 a:hover{
     text-decoration: none;
-    color: skyblue;
+    color: rgb(18, 183, 0);
 }
 
 /*スクロール*/
@@ -49,13 +49,13 @@ header nav ul li a:visited{
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 header nav ul li a:hover{
-    color: skyblue;
+    color: rgb(0, 173, 64);
 }
 header  {
-     background: rgb(42, 85, 226);
+     background: rgb(223, 223, 223);
     
 }
 /*ガンスミスの大きさ*/
@@ -88,7 +88,8 @@ aside{
     width: 150px;
     height: 100vh;/*画面全体の高さに合わせる*/
     padding:10px;
-    background-color: rgb(42, 85, 226);
+    background-color: rgb(232, 232, 233);
+    color:rgb(0, 0, 0);
     border-right: 1px solid #ccc;
     height: 100%;
     overflow-y:auto ;/*目次だけでスクロール*/
