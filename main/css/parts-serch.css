@@ -140,7 +140,12 @@ select part{
     padding:10px;
     color:aliceblue;
     width: 100vw;
-    
+
+    width:100%;
+    z-index: 1000;
+    padding:10px;
+    position: fixed;
+    bottom: 0;
 }
 
 #result-container img{
@@ -153,9 +158,21 @@ select part{
     display:flex;
     margin:50px;   
 }
-.T{
+.A{
     margin-left: 50px;
+    color: azure;
+}   
+.B{
+    margin-left:auto;
+    color:rgb(82, 255, 55)
 }
-.M{
-    margin-left:50px
+.C{
+    margin-left:auto;
+    color: aqua;
 }
+.D{
+    margin-left:auto;
+    color: aquamarine;
+}
+
+
