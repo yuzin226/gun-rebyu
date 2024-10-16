@@ -148,8 +148,14 @@ select part{
     max-height: 300px;
     margin-top:20px;
 }
-
+/*パーツ一覧*/
 .box{
     display:flex;
-    
+    margin:50px;   
+}
+.T{
+    margin-left: 50px;
+}
+.M{
+    margin-left:50px
 }
