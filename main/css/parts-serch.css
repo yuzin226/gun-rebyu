@@ -141,11 +141,6 @@ select part{
     color:aliceblue;
     width: 100vw;
 
-    width:100%;
-    z-index: 1000;
-    padding:10px;
-    position: fixed;
-    bottom: 0;
 }
 
 #result-container img{
@@ -157,6 +152,7 @@ select part{
 .box{
     display:flex;
     margin:50px;   
+    margin-bottom: 20px;
 }
 .A{
     margin-left: 50px;
@@ -174,5 +170,6 @@ select part{
     margin-left:auto;
     color: aquamarine;
 }
+
 
 

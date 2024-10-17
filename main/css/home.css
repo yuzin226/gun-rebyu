@@ -149,6 +149,7 @@ select part{
 /*銃一覧*/
 #gunlist{
     padding-bottom:20px;
+    margin-left: 30px;
 }
 
 /*部品検索欄*/
