@@ -2,7 +2,7 @@
 const partsDatabase = {
     "アッパーレシーバー": {
         "description": "銃の上部構造を指し、バレルやハンドガードが取り付けられるパーツ。内部にはボルトキャリアやチャージングハンドルが収納される。",
-        "image": ""
+        "image": "https://copsgunshop.net/wp-content/uploads/2021/07/apar501603ac-ar15-assembled-upper-receiver-black-1.jpg"
     },
     "ロアレシーバー": {
         "description": "トリガーグループ、マガジンウェル、グリップ、ストックなどが取り付けられる下部構造。機関部を収納し、基本的な操作を行う。",
