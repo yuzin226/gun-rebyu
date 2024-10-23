@@ -105,7 +105,6 @@ select part{
     font-family:Arial, sans-serif;
     background-color:rgb(5, 144, 213);
     padding:10px;
-    
 
     text-align:center;
     margin-bottom:20px
@@ -140,6 +139,7 @@ select part{
     padding:10px;
     color:aliceblue;
     width: 100vw;
+    margin-left:-10px;
 
 }
 
