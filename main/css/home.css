@@ -1,10 +1,24 @@
 @charset "UTF-8";
+*{
+    /*余白やパディングを含んで幅を計算*/
+    box-sizing: border-box;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+}
 body{
     line-height: 1.5;
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
     padding-top:70px; 
+    
+}
+
+p{
+    letter-spacing: 0.1em;
 }
 
 /*画像のスライダー*/
@@ -57,17 +71,14 @@ header{
     left: 0%;
     z-index: 1000;
     background-color: rgb(42, 85, 226);
-    padding:10px;
+  
     display: flex;
 }
 header h1{
-    margin: 20px 0 0 20px;
     margin: 0;
     padding:10px 20px;
 }
-header nav{
-    margin:0 auto  0 20px;
-}
+
 /*横並び*/
 header nav ul{
     list-style-type: none;
@@ -111,49 +122,52 @@ section img{
 
 
 /*footer*/
-/*エアガン一覧の場所移動*/
+/*エアガン一覧*/
 footer{
     position: relative;
     top:40px;
     padding: 0 0 20px 20px;
+    
+    background-color:rgb(2, 149, 149);
+    width:100%;
+    margin:0;
+    padding-bottom:20px;
+    margin-bottom:90px;
+}
+footer ul{
+    line-height: 2;
 }
 /*詳細の背景色*/
 select part{
     background-color: blue;
 }
 
-.inner {
+.inner{
     display: flex;
     flex-direction:column;
     justify-content:flex-start ;
     align-items: flex-start;
     min-height: 100px;
     background-color: rgb(1, 191, 191);
+    width:100%;
+    padding-bottom:50px;
+    
 }
 
 
 .sefety1{
-    background-color:rgb(228, 228, 32);
+    background-color:rgb(1, 191, 191);
     color: blue;
     text-align:center;
-    width: 100vw;
+    width: 100%;
     margin:0;
-    padding:20px 0;
-    margin-top: 40px;
-    margin-left:-10px;
-
 }
 .sefety2{
     list-style-type:decimal;
-    text-align: center;
-}
-
-/*銃一覧*/
-#gunlist{
-    padding-bottom:20px;
-    margin-left: 30px;
-    background-color:rgb(1,191,191);
-    
+    text-align:center;
+    letter-spacing:0.1em;
+    padding-top:10px;
+    line-height: 2;
 }
 
 /*section(class)---------------------------------------*/
@@ -161,11 +175,13 @@ select part{
    margin:60px auto ;
    display:flex;
    justify-content: end;
-   padding-left: 50px;
    background-color: rgb(1,191,191);
+   padding-right: 40px; 
+
 }
 .inner2 img{
-    width: 200px;
+    padding-top:30px;
+    width: 280px;
     height: 200px;
 }
 

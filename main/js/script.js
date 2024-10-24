@@ -39,11 +39,11 @@ const partsDatabase = {
     //10------------------------------------------------------------------
     "ポップアップシステム": {
         "description": "BB弾にバックスピンをかけ、飛距離と精度を向上させるための機構。",
-        "image": ""
+        "image": "https://image.armsweb.jp/thumbnail/fs_files/max610x/images/20230615171344648ac8383fcb5.png"
     },
     "バッテリー": {
         "description": "電動ガンに電力を供給するためのもの。",
-        "image": ""
+        "image": "https://th.bing.com/th/id/OIP.To0rV2xwEKPNa0-_e1vC9QAAAA?rs=1&pid=ImgDetMain"
     },
     "ギアボックス": {
         "description": "電動ガンの心臓部。モーターの回転をギアで制御し、ピストンを動かす。",
@@ -55,19 +55,19 @@ const partsDatabase = {
     },
     "ハンドガード": {
         "description": "銃の前方部分を保護し、射手が持つための部分。熱を防ぎ、レールやアクセサリーを取り付けることができる。",
-        "image": ""
+        "image": "https://img01.militaryblog.jp/usr/z/e/n/zenkai/IMG_7412.JPG"
     },
     "M-LOKハンドガード": {
         "description": "銃の前方部分を保護し、射手が持つための部分。熱を防ぎ、レールやアクセサリーを取り付けることができる。",
-        "image": ""
+        "image": "https://baseec-img-mng.akamaized.net/images/item/origin/f5ba0ebbd5e9397091a2f620ab35ed92.jpg?imformat=generic&q=90&im=Resize,width=1280,type=normal"
     },
     "keyModハンドガード": {
         "description": "KeyModシステムに対応したハンドガード。M-LOKと同様にモジュール式のアクセサリーを装着可能。",
-        "image": ""
+        "image": "https://military-king.jp/pic-labo/4571443147226_5.jpg"
     },
     "レール付きハンドガード": {
         "description": "標準的なピカティニーレールを備えたハンドガードで、さまざまなアクセサリーを取り付けることができる。",
-        "image": ""
+        "image": "https://th.bing.com/th/id/OIP.vC0dTC0NEg8L6qWWgXPipwAAAA?rs=1&pid=ImgDetMain"
     },
     "サイト": {
         "description": "銃の照準を合わせるための器具。",
@@ -189,7 +189,6 @@ const partsDatabase = {
         "description": "ホップアップの精度を向上させ、弾道をより安定させる。",
         "image": ""
     },
-
 
 
     //その他のパーツ-----------------------------------------------

@@ -4,7 +4,7 @@ body{
     font-size: 17px;
     background-color: rgb(145, 144, 144);
     color: white;
-    padding-top:70px; 
+    padding-top:90px; 
 }
 
 
@@ -138,7 +138,7 @@ select part{
     background-color:rgb(0, 0, 0);
     padding:10px;
     color:aliceblue;
-    width: 100vw;
+    width: 100%;
     margin-left:-10px;
 
 }
@@ -153,23 +153,32 @@ select part{
     display:flex;
     margin:50px;   
     margin-bottom: 20px;
+    justify-content: space-between;
 }
-.A{
-    margin-left: 50px;
+.A{ 
     color: azure;
 }   
 .B{
-    margin-left:auto;
     color:rgb(82, 255, 55)
 }
 .C{
-    margin-left:auto;
     color: aqua;
 }
 .D{
-    margin-left:auto;
     color: aquamarine;
 }
 
+.yaritori {
+    padding-left: 40px;
+    text-align: center;
+}
+.y2{
+    display: flex;
+    justify-content: end
+}
 
+main{
+    line-height:2;
+    letter-spacing: 0.1em;
+}
 
