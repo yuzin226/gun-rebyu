@@ -164,11 +164,14 @@ select part{
 }
 .sefety2{
     list-style-type:decimal;
-    text-align:center;
     letter-spacing:0.1em;
     padding-top:10px;
     line-height: 2;
+    display: grid;
+    justify-items: center; /*水平方向で中央揃え*/
+    align-items:center; /*水平*/
 }
+
 
 /*section(class)---------------------------------------*/
 .inner2{
@@ -183,6 +186,19 @@ select part{
     padding-top:30px;
     width: 280px;
     height: 200px;
+
 }
 
+.shop{
+    text-align: center;
+    padding:50px 0 30px 0;
+    background:rgb(1, 191, 191);
+}
+.shop a{
+    color: rgb(255, 255, 255);
+    padding-left:50px;
 
+}
+.shop a:hover{
+    color: aqua;
+}
