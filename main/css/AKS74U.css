@@ -21,7 +21,6 @@ header{
     width: 100% ;
     left: 0%;
     z-index: 1000;
-    padding:10px;
     display: flex;
 }
 header h1{
@@ -67,6 +66,7 @@ body{
     background-color: rgb(145, 144, 144);
     color: white;
     margin-bottom: 100px;/*一番下に空白*/
+    
 }
 /*画像の横並び*/
 .rlf {
@@ -78,7 +78,6 @@ aside{
     position:fixed;
     top:100px;
     left:0;
-    width: 150px;
     height: 100vh;/*画面全体の高さに合わせる*/
     padding:10px;
     background-color: rgb(232, 232, 233);
@@ -90,25 +89,20 @@ aside{
 body{
     margin-left: 220px;
 }
-main{
-    letter-spacing:0.1em;
-    line-height:2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;/*垂直方向の中央ぞろえ*/
-    align-items: center;/*水平方向の中央ぞろえ*/
-    min-height: 100vh;/*ビューポート全体をカバー*/
-}
+
 /*画面が幅７６８PX以下の場合のレスポンス対応*/
 @media (max-width:768px) {
     aside{
         position: static;/*固定解除*/
-        width: 100%;
+        width: 130%;
         height:auto ;
         border-right: none;
     }      
     body{
         margin-left:0;
+    }
+    main{
+        padding-left:100px;
     }
 }
 /*画面幅480px以下の場合のさらに狭い表示対応*/
@@ -119,8 +113,24 @@ main{
     header{
         text-align: center;/*ヘッダーを中央よせ*/
     }
+    
 }
-aside #keturon{
-    padding: 10px;
+
+@media(max-height:350px){
+    header{
+        position:static;
+        width: 132%;
+        margin-top:-10px;
+    }
+}
+main{
+    letter-spacing:0.1em;
+    line-height:2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*垂直方向の中央ぞろえ*/
+    align-items: center;/*水平方向の中央ぞろえ*/
+    min-height: 100vh;/*ビューポート全体をカバー*/
 }
 
