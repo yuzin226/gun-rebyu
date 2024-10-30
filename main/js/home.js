@@ -17,3 +17,4 @@ function visualImages(){
 }
 setInterval(visualImages, 4000);
 
+//スライド試し

@@ -202,3 +202,12 @@ select part{
 .shop a:hover{
     color: aqua;
 }
+
+@media(max-height:350px){
+    header{
+        position:static;
+        margin-top:-70px;
+    }
+}
+
+/*ハンバーガーメニュー試し---------------------------*/
