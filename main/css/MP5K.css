@@ -1,14 +1,14 @@
 @charset "UTF-8";
 a,
 a:link{
-    color: rgb(0, 0, 0);;
+    color: rgb(0,0,0);;
 }
 a:visited{
     color: rgb(252, 0, 0);
 }
 a:hover{
     text-decoration: none;
-    color: rgb(0, 30, 255);
+    color: rgb(0,30,255);
 }
 
 /*スクロール*/
@@ -21,8 +21,6 @@ header{
     width: 100% ;
     left: 0%;
     z-index: 1000;
-    background-color: rgb(12, 2, 2);
-    padding:10px;
     display: flex;
 }
 header h1{
@@ -52,10 +50,10 @@ header nav ul li a:visited{
     color: rgb(0, 0, 0);
 }
 header nav ul li a:hover{
-    color: rgb(13, 0, 255);
+    color: rgb(13,0,255);
 }
 header  {
-     background: rgb(255, 255, 255);
+     background: rgb(255,255,255);
     
 }
 /*ガンスミスの大きさ*/
@@ -68,12 +66,7 @@ body{
     background-color: rgb(145, 144, 144);
     color: white;
     margin-bottom: 100px;/*一番下に空白*/
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;/*垂直方向の中央ぞろえ*/
-    align-items: center;/*水平方向の中央ぞろえ*/
-    min-height: 100vh;/*ビューポート全体をカバー*/
+    
 }
 /*画像の横並び*/
 .rlf {
@@ -85,28 +78,31 @@ aside{
     position:fixed;
     top:100px;
     left:0;
-    width: 150px;
     height: 100vh;/*画面全体の高さに合わせる*/
     padding:10px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(245,245,245);
+    color:rgb(1, 0, 0);
     border-right: 1px solid #ccc;
-    color: rgb(1, 0, 0);
     height: 100%;
     overflow-y:auto ;/*目次だけでスクロール*/
 }
 body{
     margin-left: 220px;
 }
+
 /*画面が幅７６８PX以下の場合のレスポンス対応*/
 @media (max-width:768px) {
     aside{
         position: static;/*固定解除*/
-        width: 100%;
+        width: 130%;
         height:auto ;
         border-right: none;
     }      
     body{
         margin-left:0;
+    }
+    main{
+        padding-left:100px;
     }
 }
 /*画面幅480px以下の場合のさらに狭い表示対応*/
@@ -117,18 +113,23 @@ body{
     header{
         text-align: center;/*ヘッダーを中央よせ*/
     }
-}
-aside #keturon{
-    padding: 10px;
+    
 }
 
+@media(max-height:350px){
+    header{
+        position:static;
+        width: 132%;
+        margin-top:-10px;
+    }
+}
 main{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    min-height:100vh;
-
     letter-spacing:0.1em;
     line-height:2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*垂直方向の中央ぞろえ*/
+    align-items: center;/*水平方向の中央ぞろえ*/
+    min-height: 100vh;/*ビューポート全体をカバー*/
 }
