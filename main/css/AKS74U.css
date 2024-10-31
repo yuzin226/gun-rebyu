@@ -20,7 +20,7 @@ header{
     top:0;
     width: 100% ;
     left: 0%;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
 }
 header h1{
@@ -73,56 +73,17 @@ body{
     display: flex;
     gap: 10px;/*画像のスペース*/
 }
-/*目次*/
-aside{
-    position:fixed;
-    top:100px;
-    left:0;
-    height: 100vh;/*画面全体の高さに合わせる*/
-    padding:10px;
-    background-color: rgb(232, 232, 233);
-    color:rgb(0, 0, 0);
-    border-right: 1px solid #ccc;
-    height: 100%;
-    overflow-y:auto ;/*目次だけでスクロール*/
-}
-body{
-    margin-left: 220px;
-}
 
-/*画面が幅７６８PX以下の場合のレスポンス対応*/
-@media (max-width:768px) {
-    aside{
-        position: static;/*固定解除*/
-        width: 130%;
-        height:auto ;
-        border-right: none;
-    }      
-    body{
-        margin-left:0;
-    }
-    main{
-        padding-left:100px;
-    }
-}
-/*画面幅480px以下の場合のさらに狭い表示対応*/
-@media (max-width:480px){
-    aside{
-        padding:5px;/*余白を小さく*/
-    }
-    header{
-        text-align: center;/*ヘッダーを中央よせ*/
-    }
-    
-}
 
 @media(max-height:350px){
     header{
-        position:static;
-        width: 132%;
-        margin-top:-10px;
+        position: static;
+        width:100%;
+        margin:-10px 0 0 0;
     }
 }
+
+
 main{
     letter-spacing:0.1em;
     line-height:2;
@@ -136,14 +97,7 @@ main{
 
 
 
-
-
-
-
-
-
-
-
+/* ハンバーガーメニュー */
 #wrapper nav {
     position: fixed;
     top: 0;
@@ -154,11 +108,11 @@ main{
     background: rgba(33,33,33,.9);
     font-size: 16px;
     box-sizing: border-box;
-    z-index: 2
+    z-index: 2;
 }
 
 #wrapper nav ul li {
-    padding: 20px 28px
+    padding: 5px 28px
 }
 
 #wrapper nav ul li a {
@@ -183,7 +137,7 @@ main{
     position: absolute;
     width: 30px;
     height: 4px;
-    background: #666;
+    background: #323cd2;
     border-radius: 10px;
     -webkit-transition: all 400ms;
     transition: all 400ms
